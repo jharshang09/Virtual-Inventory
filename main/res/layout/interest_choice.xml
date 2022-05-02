@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress XmlUnusedNamespaceDeclaration -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/interest_choices"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sssssconcept">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_gravity="top"
+        android:fontFamily="@font/segoeprb"
+        android:gravity="center"
+        android:text="@string/choose_your_interest"
+        android:textColor="@color/black"
+        android:textSize="33sp"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/materialButtonToggleGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/music"
+
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/dance"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/dance"
+        android:textColor="#4527A0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/fashion"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/fashion"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/drawing"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/drawing"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <Button
+        android:id="@+id/art_and_craft"
+        android:layout_width="180dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/art_craft"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <Button
+        android:id="@+id/animation"
+        android:layout_width="180dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/animation"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <Button
+        android:id="@+id/cooking"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/cooking"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <Button
+        android:id="@+id/writing"
+        android:layout_width="180dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/writing"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <Button
+        android:id="@+id/acting"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/acting"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <Button
+        android:id="@+id/blogging"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/blogging"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/sports"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <Button
+        android:id="@+id/quotes"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/quotes"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <Button
+        android:id="@+id/games"
+        android:layout_width="180dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custombutton"
+        android:text="@string/games"
+        android:textColor="#4A148C"
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/submit"
+        android:src="@drawable/ic_action_name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="786dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
