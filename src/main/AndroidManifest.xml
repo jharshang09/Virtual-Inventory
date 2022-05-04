@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VirtualInventory">
         <activity
+            android:name=".Homescreen"
+            android:exported="false" />
+        <activity android:name=".LoginActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

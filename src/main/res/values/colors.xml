@@ -7,7 +7,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
     <color name="Summer_dog">#78ffd6</color>
     <color name="Piggy_Pink">#ffdde1</color>
     <color name="J_shine">#12c2e9</color>
@@ -17,6 +16,7 @@
     <color name="Telegram2">#1c92d2</color>
     <color name="UltraVoilet">#eaafc8</color>
     <color name="shifty">#a2ab58</color>
-
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+    <color name="ic_my_icon_background">#881BC3</color>
 
 </resources>
